@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany</groupId>
+    <artifactId>TP-RTP</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
+    
+    
+    <dependencies>
+
+                                           <dependency>
+
+                                                         <groupId>javax.media</groupId>
+
+                                                         <artifactId>jmf</artifactId>
+
+                                                         <version>2.1.1e</version>
+
+                                          </dependency>
+                                          
+                                          <dependency>
+    <groupId>com.sun.media</groupId>
+    <artifactId>jmf </artifactId>
+    <version>2.1.1e</version>
+    <scope>system</scope>
+    <systemPath>/Users/mac/NetBeansProjects/TP-RTP/lib/jmf.jar</systemPath>
+    </dependency>
+
+
+    <dependency>
+    <groupId>com.sun.media</groupId>
+    <artifactId>jmf-natif</artifactId>
+    <version>2.1.1e</version>
+    <scope>system</scope>
+    <systemPath>/Users/mac/NetBeansProjects/TP-RTP/lib/jmf-native.jar</systemPath>
+    </dependency>
+
+
+</dependencies>
+
+
+
+
+
+
+
+</project>
+
+   
